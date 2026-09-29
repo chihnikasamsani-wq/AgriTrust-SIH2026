@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "id": "DEMO-F1",
+      "name": "Demo Farmer 1",
+      "phone": "9000000001",
+      "role": "farmer",
+      "language": "te"
+    },
+    {
+      "id": "DEMO-F2",
+      "name": "Demo Farmer 2",
+      "phone": "9000000002",
+      "role": "farmer",
+      "language": "te"
+    },
+    {
+      "id": "DEMO-B1",
+      "name": "Demo Buyer",
+      "phone": "9000000010",
+      "role": "buyer",
+      "language": "en"
+    },
+    {
+      "id": "DEMO-L1",
+      "name": "Demo Logistics",
+      "phone": "9000000020",
+      "role": "logistics",
+      "language": "en"
+    },
+    {
+      "id": "DEMO-Q1",
+      "name": "Demo Quality Agent",
+      "phone": "9000000030",
+      "role": "quality",
+      "language": "en"
+    }
+  ],
+  "produce": [
+    {
+      "id": "PRD-DEMO1",
+      "farmer": "Demo Farmer 1",
+      "crop": "Tomato",
+      "quantity": 200,
+      "remainingQuantity": 200,
+      "unit": "kg",
+      "date": "2026-09-25",
+      "location": "Demo Collection Point",
+      "price": 30,
+      "status": "AVAILABLE",
+      "qualityStatus": "PENDING_INSPECTION",
+      "urgency": "NORMAL"
+    },
+    {
+      "id": "PRD-DEMO2",
+      "farmer": "Demo Farmer 2",
+      "crop": "Rice",
+      "quantity": 150,
+      "remainingQuantity": 150,
+      "unit": "kg",
+      "date": "2026-09-25",
+      "location": "Demo Collection Point",
+      "price": 42,
+      "status": "AVAILABLE",
+      "qualityStatus": "PENDING_INSPECTION",
+      "urgency": "NORMAL"
+    }
+  ],
+  "buyers": [],
+  "orders": [],
+  "transactions": [],
+  "routes": [],
+  "qualityChecks": [],
+  "disputes": [],
+  "notifications": []
+}

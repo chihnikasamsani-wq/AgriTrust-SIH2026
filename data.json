@@ -1,0 +1,212 @@
+{
+  "users": [
+    {
+      "id": "DEMO-F1",
+      "name": "Demo Farmer 1",
+      "phone": "9000000001",
+      "role": "farmer",
+      "language": "te"
+    },
+    {
+      "id": "DEMO-F2",
+      "name": "Demo Farmer 2",
+      "phone": "9000000002",
+      "role": "farmer",
+      "language": "te"
+    },
+    {
+      "id": "DEMO-B1",
+      "name": "Demo Buyer",
+      "phone": "9000000010",
+      "role": "buyer",
+      "language": "en"
+    },
+    {
+      "id": "DEMO-L1",
+      "name": "Demo Logistics",
+      "phone": "9000000020",
+      "role": "logistics",
+      "language": "en"
+    },
+    {
+      "id": "DEMO-Q1",
+      "name": "Demo Quality Agent",
+      "phone": "9000000030",
+      "role": "quality",
+      "language": "en"
+    },
+    {
+      "id": "USR-mum25s8gpizd",
+      "name": "chihnika",
+      "phone": "56678798099",
+      "role": "buyer",
+      "language": "en",
+      "createdAt": "2026-09-29T02:29:25.168Z"
+    },
+    {
+      "id": "USR-mum25th8s119",
+      "name": "chihnika",
+      "phone": "56678798099",
+      "role": "buyer",
+      "language": "en",
+      "createdAt": "2026-09-29T02:29:26.780Z"
+    },
+    {
+      "id": "USR-mum25ueqem4x",
+      "name": "chihnika",
+      "phone": "56678798099",
+      "role": "buyer",
+      "language": "en",
+      "createdAt": "2026-09-29T02:29:27.986Z"
+    },
+    {
+      "id": "USR-mum25usujnxb",
+      "name": "chihnika",
+      "phone": "56678798099",
+      "role": "buyer",
+      "language": "en",
+      "createdAt": "2026-09-29T02:29:28.494Z"
+    },
+    {
+      "id": "USR-mum25uz2pjip",
+      "name": "chihnika",
+      "phone": "56678798099",
+      "role": "buyer",
+      "language": "en",
+      "createdAt": "2026-09-29T02:29:28.718Z"
+    },
+    {
+      "id": "USR-mum25z7yfp41",
+      "name": "chihnika",
+      "phone": "56678798099",
+      "role": "buyer",
+      "language": "en",
+      "createdAt": "2026-09-29T02:29:34.222Z"
+    },
+    {
+      "id": "USR-mum25znvnkw8",
+      "name": "chihnika",
+      "phone": "56678798099",
+      "role": "buyer",
+      "language": "en",
+      "createdAt": "2026-09-29T02:29:34.795Z"
+    },
+    {
+      "id": "USR-mum2663ssqif",
+      "name": "chihnika",
+      "phone": "56678798099",
+      "role": "buyer",
+      "language": "te",
+      "createdAt": "2026-09-29T02:29:43.144Z"
+    },
+    {
+      "id": "USR-mum266q6tlfc",
+      "name": "chihnika",
+      "phone": "56678798099",
+      "role": "buyer",
+      "language": "te",
+      "createdAt": "2026-09-29T02:29:43.950Z"
+    },
+    {
+      "id": "USR-mum266wg262j",
+      "name": "chihnika",
+      "phone": "56678798099",
+      "role": "buyer",
+      "language": "te",
+      "createdAt": "2026-09-29T02:29:44.176Z"
+    },
+    {
+      "id": "USR-mum27mr88vqu",
+      "name": "chihnika",
+      "phone": "56678798099",
+      "role": "buyer",
+      "language": "en",
+      "createdAt": "2026-09-29T02:30:51.380Z"
+    },
+    {
+      "id": "USR-mum27n4xsz68",
+      "name": "chihnika",
+      "phone": "56678798099",
+      "role": "buyer",
+      "language": "en",
+      "createdAt": "2026-09-29T02:30:51.873Z"
+    },
+    {
+      "id": "USR-mum27nb5vsog",
+      "name": "chihnika",
+      "phone": "56678798099",
+      "role": "buyer",
+      "language": "en",
+      "createdAt": "2026-09-29T02:30:52.097Z"
+    },
+    {
+      "id": "USR-mum27nvadyi9",
+      "name": "chihnika",
+      "phone": "56678798099",
+      "role": "buyer",
+      "language": "en",
+      "createdAt": "2026-09-29T02:30:52.822Z"
+    },
+    {
+      "id": "USR-mum27o1qmwyt",
+      "name": "chihnika",
+      "phone": "56678798099",
+      "role": "buyer",
+      "language": "en",
+      "createdAt": "2026-09-29T02:30:53.055Z"
+    },
+    {
+      "id": "USR-mum27ozevm9q",
+      "name": "chihnika",
+      "phone": "56678798099",
+      "role": "buyer",
+      "language": "en",
+      "createdAt": "2026-09-29T02:30:54.266Z"
+    },
+    {
+      "id": "USR-mv9i7qc7827h",
+      "name": "chihnika",
+      "phone": "6305529931",
+      "role": "buyer",
+      "language": "en",
+      "createdAt": "2026-10-15T12:17:31.927Z"
+    }
+  ],
+  "produce": [
+    {
+      "id": "PRD-DEMO1",
+      "farmer": "Demo Farmer 1",
+      "crop": "Tomato",
+      "quantity": 200,
+      "remainingQuantity": 200,
+      "unit": "kg",
+      "date": "2026-09-25",
+      "location": "Demo Collection Point",
+      "price": 30,
+      "status": "AVAILABLE",
+      "qualityStatus": "PENDING_INSPECTION",
+      "urgency": "NORMAL"
+    },
+    {
+      "id": "PRD-DEMO2",
+      "farmer": "Demo Farmer 2",
+      "crop": "Rice",
+      "quantity": 150,
+      "remainingQuantity": 150,
+      "unit": "kg",
+      "date": "2026-09-25",
+      "location": "Demo Collection Point",
+      "price": 42,
+      "status": "AVAILABLE",
+      "qualityStatus": "PENDING_INSPECTION",
+      "urgency": "NORMAL"
+    }
+  ],
+  "buyers": [],
+  "orders": [],
+  "transactions": [],
+  "routes": [],
+  "qualityChecks": [],
+  "disputes": [],
+  "notifications": []
+}

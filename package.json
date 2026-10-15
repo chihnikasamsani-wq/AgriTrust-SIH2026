@@ -1,0 +1,12 @@
+{
+  "name": "agritrust",
+  "version": "1.0.0",
+  "description": "AgriTrust AI-enabled agricultural trade, voice assistance, quality verification and logistics prototype",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
